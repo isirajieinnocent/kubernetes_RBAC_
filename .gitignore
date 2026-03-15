@@ -1,0 +1,35 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+.terraform.lock.hcl
+
+# Kubernetes
+*.kubeconfig
+*.crt
+*.key
+kubeconfig.yaml
+admin.conf
+
+# Secrets
+*.pem
+*.priv
+secrets/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

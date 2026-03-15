@@ -8,6 +8,6 @@ spec:
   selector:
     app: grade-submission
   ports:
-  - port: 3000
-    targetPort: 3000
+  - port: 8443
+    targetPort: 8443
     nodePort: 31000
